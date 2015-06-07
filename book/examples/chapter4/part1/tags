@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASFLAGS	Makefile	/^ASFLAGS= -O2 -g$/;"	m
+CC	Makefile	/^CC=arm-elf-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS= -O2 -g$/;"	m
+IO_MAP_SIZE	mmu.c	38;"	d	file:
+L1_PTR_BASE_ADDR	mmu.c	32;"	d	file:
+LD	Makefile	/^LD=arm-elf-ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS=-Tleeos.lds -Ttext 30000000 $/;"	m
+MEM_MAP_SIZE	mmu.c	35;"	d	file:
+OBJCOPY	Makefile	/^OBJCOPY=arm-elf-objcopy$/;"	m
+OBJS	Makefile	/^OBJS=init.o start.o boot.o abnormal.o mmu.o print.o$/;"	m
+PAGE_TABLE_L1_BASE_ADDR_MASK	mmu.c	21;"	d	file:
+PHYSICAL_IO_ADDR	mmu.c	36;"	d	file:
+PHYSICAL_MEM_ADDR	mmu.c	33;"	d	file:
+PTE_ALL_AP_L1_SECTION_DEFAULT	mmu.c	27;"	d	file:
+PTE_BITS_L1_SECTION	mmu.c	30;"	d	file:
+PTE_L1_SECTION_DOMAIN_DEFAULT	mmu.c	26;"	d	file:
+PTE_L1_SECTION_NO_CACHE_AND_WB	mmu.c	25;"	d	file:
+PTE_L1_SECTION_PADDR_BASE_MASK	mmu.c	29;"	d	file:
+UFCON0	boot.c	21;"	d	file:
+VIRTUAL_IO_ADDR	mmu.c	37;"	d	file:
+VIRTUAL_MEM_ADDR	mmu.c	34;"	d	file:
+VIRT_TO_PTE_L1_INDEX	mmu.c	23;"	d	file:
+_INTSIZEOF	print.c	20;"	d	file:
+__vector_data_abort	abnormal.s	/^__vector_data_abort:$/;"	l
+__vector_fiq	abnormal.s	/^__vector_fiq:$/;"	l
+__vector_irq	abnormal.s	/^__vector_irq:$/;"	l
+__vector_prefetch_abort	abnormal.s	/^__vector_prefetch_abort:	$/;"	l
+__vector_reserved	abnormal.s	/^__vector_reserved:$/;"	l
+__vector_reset	init.s	/^__vector_reset:$/;"	l
+__vector_swi	abnormal.s	/^__vector_swi:$/;"	l
+__vector_undefined	abnormal.s	/^__vector_undefined:$/;"	l
+_clear_bss	init.s	/^_clear_bss:$/;"	l
+_main	init.s	/^_main:$/;"	l
+_start	start.s	/^_start:$/;"	l
+_vector_data_abort	start.s	/^_vector_data_abort:	.word	__vector_data_abort$/;"	l
+_vector_fiq	start.s	/^_vector_fiq:	.word	__vector_fiq $/;"	l
+_vector_irq	start.s	/^_vector_irq:	.word	__vector_irq$/;"	l
+_vector_prefetch_abort	start.s	/^_vector_prefetch_abort:	.word	__vector_prefetch_abort$/;"	l
+_vector_reserved	start.s	/^_vector_reserved:	.word	__vector_reserved$/;"	l
+_vector_reset	start.s	/^_vector_reset:	.word	__vector_reset$/;"	l
+_vector_swi	start.s	/^_vector_swi:	.word	__vector_swi$/;"	l
+_vector_undefined	start.s	/^_vector_undefined:	.word	__vector_undefined$/;"	l
+gen_l1_pte	mmu.c	/^unsigned int gen_l1_pte(unsigned int paddr){$/;"	f
+gen_l1_pte_addr	mmu.c	/^unsigned int gen_l1_pte_addr(unsigned int baddr,\\$/;"	f
+helloworld	boot.c	/^void helloworld(void){$/;"	f
+init	boot.c	/^static init_func init[]={$/;"	v	file:
+init_func	boot.c	/^typedef void (*init_func)(void);$/;"	t	file:
+init_sys_mmu	mmu.c	/^void init_sys_mmu(void){$/;"	f
+plat_boot	boot.c	/^void plat_boot(void){$/;"	f
+start_mmu	mmu.c	/^void start_mmu(void){$/;"	f
+test_mmu	boot.c	/^void test_mmu(void){$/;"	f
+test_num	print.c	/^void test_num(int num){$/;"	f
+test_vparameter	print.c	/^void test_vparameter(int i,...){$/;"	f
+va_arg	print.c	22;"	d	file:
+va_end	print.c	23;"	d	file:
+va_list	print.c	/^typedef char * va_list;$/;"	t	file:
+va_start	print.c	21;"	d	file:

@@ -30,3 +30,9 @@
 
 # Debug files
 *.dSYM/
+
+*.dis
+.cproject
+.project
+*.bin
+*.img
